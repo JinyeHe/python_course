@@ -20,7 +20,7 @@ def ask_url(url):
     
     return(response)
 
-
+a = 1
 def find_newbook(num):
     #this function is used to get the homepage of a book
     response = ask_url('https://book.douban.com/')
